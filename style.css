@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fa;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 32px 24px 24px 24px;
+}
+h1 {
+    margin-top: 0;
+    color: #2a3b4d;
+    font-size: 2.2em;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+form label {
+    font-weight: 500;
+}
+form input, form select {
+    padding: 7px 10px;
+    border: 1px solid #bfc7d1;
+    border-radius: 4px;
+    font-size: 1em;
+}
+form button {
+    background: #2a7ae2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 18px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+form button:hover {
+    background: #185bb5;
+}
+#results {
+    margin-top: 18px;
+}
+.table-wrap {
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fafbfc;
+}
+th, td {
+    border: 1px solid #e2e6ed;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: 0.98em;
+}
+th {
+    background: #f0f4fa;
+    color: #2a3b4d;
+}
+tr:nth-child(even) {
+    background: #f7fafd;
+}
+.pagination {
+    margin: 16px 0 0 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.pagination button {
+    background: #e2e6ed;
+    color: #2a3b4d;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.pagination button.active, .pagination button:hover {
+    background: #2a7ae2;
+    color: #fff;
+}

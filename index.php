@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Pesquisa SIGTAP</h1>
+        <h1>Pesquisa</h1>
         <form id="searchForm" onsubmit="return false;">
             <label for="table">Tabela:</label>
             <select id="table" name="table"></select>
